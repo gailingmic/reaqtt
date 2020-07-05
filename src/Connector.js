@@ -15,9 +15,9 @@ function Connector(props) {
         const mqttObj = mqtt ? mqtt : typeofProp ? MQTT.connect(mqttProps) : MQTT.connect(mqttProps.url, mqttProps.options);
         
         mqttObj.on('connect', statusHandler('connected'));
-		mqttObj.on('reconnect', statusHandler('reconnect'));
-		mqttObj.on('close', statusHandler('closed'));
-		mqttObj.on('offline', statusHandler('offline'));
+        mqttObj.on('reconnect', statusHandler('reconnect'));
+        mqttObj.on('close', statusHandler('closed'));
+        mqttObj.on('offline', statusHandler('offline'));
         mqttObj.on('error', console.error);
         
         setLocalMqtt(mqttObj);
