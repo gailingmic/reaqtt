@@ -1,6 +1,6 @@
 {
   "name": "reaqtt",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A sane React wrapper for MQTT",
   "main": "src/index.js",
   "keywords": [
