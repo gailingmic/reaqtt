@@ -1,0 +1,29 @@
+{
+  "name": "reaqtt",
+  "version": "0.5.1",
+  "description": "A sane react wrapper for MQTT",
+  "main": "src/index.js",
+  "keywords": [
+    "react",
+    "mqtt"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gailingmic/reaqtt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gailingmic/reaqtt/issues"
+  },
+  "author": "Michell Gailing <gailing.michell@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "mqtt": "^4.1.0"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
